@@ -1,9 +1,7 @@
-#include "Threadworker.h"
+#include "Service.h"
 
 DWORD WINAPI ServiceWorkerThread(LPVOID lpParam)
 {
-    // TO_DO: Declare and initialize variables.
-
     //  Periodically check if the service has been requested to stop
     while (WaitForSingleObject(ghSvcStopEvent, 0) != WAIT_OBJECT_0)
     {

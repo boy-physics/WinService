@@ -1,5 +1,4 @@
 #include "Service.h"
-#include "Threadworker.h"
 
 // Purpose:
 //   Entry point for the process
